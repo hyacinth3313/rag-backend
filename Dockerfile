@@ -5,4 +5,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 10000
 ENV WEB_CONCURRENCY=1
-CMD ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "10000", "--workers", "1"]
+CMD ["sh", "-c", "uvicorn api:app --host 0.0.0.0 --port ${PORT:-10000} --workers 1"]
