@@ -1,9 +1,9 @@
-# VOXA — Voice-Enabled RAG Model
+# VOXA â€” Voice-Enabled RAG Model
 
-A voice-enabled Retrieval-Augmented Generation system: speak a question, get a grounded answer, backed by real retrieval — not guesswork.
+A voice-enabled Retrieval-Augmented Generation system: speak a question, get a grounded answer, backed by real retrieval â€” not guesswork.
 
 **Frontend repo:** https://github.com/YOUR_USERNAME/voxa-frontend
-**Frontend live link:** [update with your Vercel URL]
+**Frontend live link:** https://voxa-frontend-lovat.vercel.app/
 **Backend live link:** https://ines-nondisposed-pursily.ngrok-free.dev
 
 ## Architecture
